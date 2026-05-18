@@ -5,13 +5,12 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import { ApiKeySetup } from "@/components/api-key-setup";
-import { hasConfiguredApiCredentials } from "@/lib/api-credentials/storage";
 import { BackgroundPaths } from "@/components/ui/background-paths";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 export function HomeLanding() {
-  const [isConfigured, setIsConfigured] = useState(() => hasConfiguredApiCredentials());
+  const [isConfigured, setIsConfigured] = useState(false);
 
   return (
     <BackgroundPaths
