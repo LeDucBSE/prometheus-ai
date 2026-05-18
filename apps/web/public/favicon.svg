@@ -1,0 +1,63 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="outer-flame" x1="88" y1="24" x2="160" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFC61B"/>
+      <stop offset="0.42" stop-color="#FF7A00"/>
+      <stop offset="1" stop-color="#D61E08"/>
+    </linearGradient>
+    <linearGradient id="inner-flame" x1="108" y1="44" x2="150" y2="142" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFE36C"/>
+      <stop offset="0.52" stop-color="#FFAE00"/>
+      <stop offset="1" stop-color="#FF5A00"/>
+    </linearGradient>
+    <linearGradient id="nib-metal" x1="92" y1="146" x2="164" y2="214" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F5F7FA"/>
+      <stop offset="0.2" stop-color="#D7DCE4"/>
+      <stop offset="0.48" stop-color="#88909B"/>
+      <stop offset="0.76" stop-color="#E5E8EE"/>
+      <stop offset="1" stop-color="#757B85"/>
+    </linearGradient>
+    <linearGradient id="ring-metal" x1="92" y1="132" x2="164" y2="152" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#DDE2E9"/>
+      <stop offset="0.52" stop-color="#88919B"/>
+      <stop offset="1" stop-color="#F0F3F7"/>
+    </linearGradient>
+  </defs>
+
+  <path
+    d="M128 28C150 45 164 70 164 93C164 124 141 149 128 168C102 149 83 124 83 96C83 72 98 45 128 28Z"
+    fill="url(#outer-flame)"
+  />
+  <path
+    d="M132 48C144 66 150 83 150 101C150 124 137 141 126 155C113 141 104 124 104 106C104 88 111 67 132 48Z"
+    fill="url(#inner-flame)"
+  />
+  <path
+    d="M143 47C155 63 172 83 175 109C177 126 170 142 156 156C162 141 161 126 153 113C146 102 140 93 140 81C140 69 145 58 143 47Z"
+    fill="#FFC400"
+  />
+  <path
+    d="M124 22C133 43 127 62 115 78C104 93 98 107 98 122C98 134 102 146 110 157C90 146 78 128 78 106C78 75 95 45 124 22Z"
+    fill="#FF5A00"
+  />
+  <path
+    d="M125 31C136 52 132 72 122 90C111 109 109 125 115 144C105 134 100 121 100 107C100 80 112 51 125 31Z"
+    fill="#D61E08"
+  />
+  <path
+    d="M136 60C126 79 123 95 123 113C123 129 128 144 140 161C121 150 111 132 111 112C111 93 118 75 136 60Z"
+    fill="#0B0B0F"
+  />
+
+  <path d="M92 133H164L160 153H96L92 133Z" fill="url(#ring-metal)"/>
+  <path d="M96 151H160L156 166H100L96 151Z" fill="#2C3139"/>
+  <path
+    d="M104 166H152L138 219C136 228 120 228 118 219L104 166Z"
+    fill="url(#nib-metal)"
+  />
+  <path d="M127 165H129V214H127V165Z" fill="#1B1D22"/>
+  <circle cx="128" cy="185" r="7" fill="#0A0B0E"/>
+
+  <path d="M74 74L77 83L86 86L77 89L74 98L71 89L62 86L71 83L74 74Z" fill="#FFC61B"/>
+  <path d="M92 61L94 67L100 69L94 71L92 77L90 71L84 69L90 67L92 61Z" fill="#FFC61B"/>
+</svg>
