@@ -13,6 +13,10 @@
 
 [Getting Started](#-getting-started) · [Features](#-features) · [Supported Models](#-supported-providers) · [How It Works](#-how-it-works) · [Deploy](#-deploying-to-production) · [Contributing](#-contributing)
 
+<br/>
+
+<img src="docs/images/hero-banner.png" alt="Prometheus AI — Transform rough prompts into expert-grade instructions" width="100%"/>
+
 </div>
 
 ---
@@ -33,6 +37,13 @@ Most people write prompts like text messages — vague, ambiguous, missing conte
 ---
 
 ## ✨ Features
+
+<div align="center">
+<img src="docs/images/screenshot-workspace.png" alt="Prometheus AI Workspace — use case selection, model targeting, prompt optimization" width="90%"/>
+<br/><em>The Prometheus AI workspace — select your use case, target model, and let the prompt compiler do the rest.</em>
+</div>
+
+<br/>
 
 ### 🎯 Model-Specific Optimization
 
@@ -62,6 +73,12 @@ Prometheus knows the image generation APIs for ChatGPT (GPT Image), Gemini (Nano
 ---
 
 ## 🚀 Getting Started
+
+<div align="center">
+<img src="docs/images/screenshot-landing.png" alt="Prometheus AI Landing Page" width="90%"/>
+</div>
+
+<br/>
 
 **Requires Node.js 18+**
 
